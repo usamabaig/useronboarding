@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/test.css": "/css/test.css",
+    "/css/my_tailwind.css": "/css/my_tailwind.css",
+    "/css/logo.css": "/css/logo.css",
+    "/css/test/test_pages_list.css": "/css/test/test_pages_list.css",
+    "/js/components/contact_form/contact_form.js": "/js/components/contact_form/contact_form.js",
+    "/js/test/element/test_element_ui_framework.js": "/js/test/element/test_element_ui_framework.js",
+    "/js/test/iview/test_iview_ui_framework.js": "/js/test/iview/test_iview_ui_framework.js",
+    "/js/test/iview_element/test_combined_iview_element_ui_frameworks.js": "/js/test/iview_element/test_combined_iview_element_ui_frameworks.js"
+}

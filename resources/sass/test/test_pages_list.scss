@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,600');
+
+body {
+    @apply .tw-p-0;
+}
+section {
+    @apply .tw-py-4 .tw-px-4;
+}
+.kb-done {
+    @apply .tw-text-green-500 .tw-text-sm .tw-font-bold;
+}
+.kb-partially-done {
+    @apply .tw-text-orange-500 .tw-text-sm .tw-font-bold;
+}
+.items {
+    @apply .tw-w-full .tw-my-4 .tw-py-2 .tw-border-gray-400 .tw-border-dotted .tw-border-t-2;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    p {
+        margin: 20px;
+        @apply .tw-text-gray-600 .tw-text-sm .tw-font-normal;
+
+        a {
+            @apply .tw-text-lg .tw-font-bold;
+            &.done {
+                @apply .kb-done;
+            }
+            &.partiallyDone {
+                @apply .kb-partially-done;
+            }
+            &:hover {
+                @apply .tw-bg-gray-200;
+            }
+        }
+        &.done {
+            a {
+                @apply .kb-done;
+            }
+        }
+        &.partiallyDone {
+            a {
+                @apply .kb-partially-done;
+            }
+        }
+    }
+}
+
+h1, h2, h3, h4, h5 {
+    @apply .tw-font-bold .tw-text-gray-700;
+}
+
+h1 {
+    @apply .tw-text-4xl;
+    @apply .tw-border-gray-600 .tw-border-dashed .tw-border-b-2 .tw-pb-4;
+}
+h2 {
+    @apply .tw-text-3xl .tw-py-2;
+}
+h3 {
+    @apply .tw-text-2xl;
+}
+h4 {
+    @apply .tw-text-xl;
+}
+h5 {
+    @apply .tw-text-sm .tw-my-2;
+}
+
