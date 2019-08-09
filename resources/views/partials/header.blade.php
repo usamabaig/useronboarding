@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="tw-block">
-        <button class="pricingOptionsLink md:tw-block tw-bg-ctaButtonColor hover:tw-bg-ctaButtonHoverColor tw-rounded tw-text-white tw-p-2 tw-pl-4 tw-pr-4">
+        <button class="pricingOptionsLink md:tw-block tw-bg-red-500 hover:tw-bg-red-600 tw-rounded tw-text-white tw-p-2 tw-pl-4 tw-pr-4">
           <p class="tw-font-semibold tw-text-xl">Subscribe</p>
         </button>
         <!--

@@ -52,9 +52,9 @@ ol {
 }
 
 a {
-    @apply .tw-text-linkColor .tw-font-bold;
+    @apply .tw-text-blue-500 .tw-font-bold;
     &:hover {
-        @apply .tw-text-linkHoverColor .tw-bg-gray-200;
+        @apply .tw-text-blue-800 .tw-bg-gray-200;
     }
 }
 
@@ -65,7 +65,7 @@ a {
 .kb-tags {
 	list-style: none;
 	margin: 0;
-	overflow: hidden; 
+	overflow: hidden;
 	padding: 0;
 
 	li {
@@ -96,12 +96,12 @@ a {
 		}
 
 		&:hover {
-			@apply .tw-bg-ctaButtonColor;
+			@apply .tw-bg-red-500;
 			color: white;
 		}
 
 		&:hover::after {
-			@apply .tw-bg-ctaButtonColor;
+			@apply .tw-bg-red-500;
 			color: white;
 		}
 
@@ -175,7 +175,7 @@ button {
 }
 
 * {
-	@apply .tw-font-base;
+	//@apply .tw-font-base;
 	/*background: #6495ed61;*/
 }
 

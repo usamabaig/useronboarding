@@ -1,12 +1,12 @@
 <template>
 
-<div class="tw-container">
+<div class="tw-container bg-blue-500">
     <div class="tw-min-h-screen tw-flex tw-mb-4">
         <div class="tw-w-full md:tw-w-3/5">
             <div class="tw-mb-8">
                 <h2 class="tw-font-bold tw-text-5xl">Contact Us</h2>
             </div>
-            <div class="tw-text-dig">
+            <div class="tw-text-dig bg-blue-500">
                 <div class="tw-w-full">
 
                     <form @submit.prevent="submit" class="tw-max-w-md tw-mb-4 form-input">
@@ -33,17 +33,18 @@
                             <button type="submit" class="tw-bg-blue-500 hover:tw-bg-blue-400 tw-text-white tw-font-bold tw-w-full tw-h-12 tw-py-2 tw-px-4 tw-rounded focus:outline-none focus:tw-shadow-outline">Send Message</button>
                         </div>
                     </form>
-           
+
                 </div>
             </div>
         </div>
-    </div>              
+    </div>
 </div>
 
 </template>
 
 <script>
 import ContactFormMixin from './ContactFormMixin';
+import Router from '../../router';
 export default {
   mixins: [ ContactFormMixin ],
   data() {
